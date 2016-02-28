@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/myfreeweb/tiddly-tracery",
+	"description": "Tracery procedural story generation",
+	"author": "myfreeweb",
+	"core-version": ">=5.0.0",
+	"list": "readme",
+	"source": "https://github.com/myfreeweb/tiddly-tracery",
+	"plugin-type": "plugin"
+}

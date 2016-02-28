@@ -1,0 +1,21 @@
+title: $:/plugins/myfreeweb/tiddly-tracery/readme
+
+!! Tiddly Tracery
+
+This plugin allows you to use the [[Tracery library|https://github.com/galaxykate/tracery]] inside of TiddlyWiki.
+
+Add a randomized welcome message to your personal wiki,
+keep your [[twitter bots|http://cheapbotsdonequick.com]]' grammars in your personal wiki and get previews,
+or just create a confusing TiddlyWiki-based text adventure :D
+(Well, maybe a bit less confusing if you use the zooming storyview.)
+
+!!! How to use
+
+First, put your grammar into a tiddler.
+Set its content type to JSON.
+
+Second, use the `tracery-generate` macro in your text tiddlers like this:
+
+`<<tracery-generate "GrammarTiddlerName" "Experssion e.g. #[hero:#name#][heroPet:#animal#]story#">>`
+
+Close and open the tiddler (or edit and save) to see a newly generated text.
